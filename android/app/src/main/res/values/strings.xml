@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Athkar Counter</string>
+    <string name="title_activity_main">Athkar Counter</string>
+    <string name="package_name">com.yourapp.athkar</string>
+    <string name="custom_url_scheme">com.yourapp.athkar</string>
+</resources>
