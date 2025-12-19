@@ -757,9 +757,634 @@ export const afterPrayerAthkar: Athkar = {
   ],
 };
 
+export const wakingUpAthkar: Athkar = {
+  id: "wakeup",
+  title: {
+    ar: "أذكار الاستيقاظ من النوم",
+    en: "Athkar Upon Waking Up",
+    fr: "Invocations au réveil",
+  },
+  category: "wakeup",
+  reference: "Islambook (Azkar / Waking Up)",
+  phrases: [
+    {
+      id: "w-1",
+      arabic:
+        "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "w-2",
+      arabic:
+        "لا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "w-3",
+      arabic:
+        "رَبِّ اغْفِرْ لِي.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "w-4",
+      arabic:
+        "الْحَمْدُ لِلَّهِ الَّذِي رَدَّ عَلَيَّ رُوحِي، وَعَافَانِي فِي جَسَدِي، وَأَذِنَ لِي بِذِكْرِهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "w-5",
+      arabic:
+        "الْحَمْدُ لِلَّهِ الَّذِي أَقَالَنَا يَوْمَنَا هَذَا وَلَمْ يُهْلِكْنَا بِذُنُوبِنَا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const wuduAthkar: Athkar = {
+  id: "wudu",
+  title: {
+    ar: "أذكار الوضوء",
+    en: "Athkar of Ablution (Wudu)",
+    fr: "Invocations des ablutions (Wudu)",
+  },
+  category: "wudu",
+  reference: "Islambook (Azkar / Wudu) – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "wu-1",
+      arabic: "بِسْمِ اللهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "wu-2",
+      arabic:
+        "أَشْهَدُ أَنْ لا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "wu-3",
+      arabic:
+        "اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ، وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "wu-4",
+      arabic:
+        "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلَهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const mosqueAthkar: Athkar = {
+  id: "mosque",
+  title: {
+    ar: "أذكار المسجد",
+    en: "Mosque Athkar",
+    fr: "Invocations de la mosquée",
+  },
+  category: "mosque",
+  reference: "Islambook (Azkar / Mosque) – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "ms-1",
+      arabic:
+        "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "ms-2",
+      arabic:
+        "أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "ms-3",
+      arabic:
+        "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ms-4",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ms-5",
+      arabic:
+        "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const adhanAthkar: Athkar = {
+  id: "adhan",
+  title: {
+    ar: "أذكار الأذان",
+    en: "Athkar of Adhan",
+    fr: "Invocations de l’Adhan",
+  },
+  category: "adhan",
+  reference: "Islambook (Azkar / Adhan) – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "ad-1",
+      arabic:
+        "يَقُولُ مِثْلَ مَا يَقُولُ الْمُؤَذِّنُ، إِلَّا فِي «حَيَّ عَلَى الصَّلَاةِ» وَ«حَيَّ عَلَى الْفَلَاحِ» فَيَقُولُ: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ad-2",
+      arabic:
+        "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ad-3",
+      arabic:
+        "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ، إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ad-4",
+      arabic:
+        "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ، وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللَّهِ رَبًّا، وَبِمُحَمَّدٍ رَسُولًا، وَبِالْإِسْلَامِ دِينًا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const travelAthkar: Athkar = {
+  id: "travel",
+  title: {
+    ar: "أذكار السفر",
+    en: "Travel Athkar",
+    fr: "Invocations du voyage",
+  },
+  category: "travel",
+  reference: "Islambook (Azkar / Travel) – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "tr-1",
+      arabic:
+        "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "tr-2",
+      arabic:
+        "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "tr-3",
+      arabic:
+        "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "tr-4",
+      arabic:
+        "اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا، وَاطْوِ عَنَّا بُعْدَهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "tr-5",
+      arabic:
+        "اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَلِيفَةُ فِي الْأَهْلِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "tr-6",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "tr-7",
+      arabic:
+        "آيِبُونَ، تَائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "tr-8",
+      arabic:
+        "اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَمَا أَظْلَلْنَ، وَرَبَّ الْأَرَضِينَ السَّبْعِ وَمَا أَقْلَلْنَ، وَرَبَّ الشَّيَاطِينِ وَمَا أَضْلَلْنَ، وَرَبَّ الرِّيَاحِ وَمَا ذَرَيْنَ، أَسْأَلُكَ خَيْرَ هَذِهِ الْقَرْيَةِ، وَخَيْرَ أَهْلِهَا، وَخَيْرَ مَا فِيهَا، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ أَهْلِهَا، وَشَرِّ مَا فِيهَا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "tr-9",
+      arabic:
+        "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const fearAndSadnessAthkar: Athkar = {
+  id: "fear-sadness",
+  title: {
+    ar: "أذكار الخوف والحزن",
+    en: "Athkar of Fear and Sadness",
+    fr: "Invocations contre la peur et la tristesse",
+  },
+  category: "fear-sadness",
+  reference: "Islambook – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "fs-1",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ، وَقَهْرِ الرِّجَالِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-2",
+      arabic:
+        "اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لَا إِلَهَ إِلَّا أَنْتَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-3",
+      arabic:
+        "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-4",
+      arabic:
+        "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-5",
+      arabic:
+        "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 7,
+    },
+    {
+      id: "fs-6",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ كُلِّ دَابَّةٍ أَنْتَ آخِذٌ بِنَاصِيَتِهَا، إِنَّ رَبِّي عَلَى صِرَاطٍ مُسْتَقِيمٍ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-7",
+      arabic:
+        "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ غَضَبِهِ، وَعِقَابِهِ، وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّيَاطِينِ، وَأَنْ يَحْضُرُونِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fs-8",
+      arabic:
+        "رَبِّ اشْرَحْ لِي صَدْرِي، وَيَسِّرْ لِي أَمْرِي.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const illnessAthkar: Athkar = {
+  id: "illness",
+  title: {
+    ar: "أذكار المرض",
+    en: "Athkar of Illness",
+    fr: "Invocations en cas de maladie",
+  },
+  category: "illness",
+  reference: "Islambook – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "il-1",
+      arabic:
+        "أَسْأَلُ اللَّهَ الْعَظِيمَ، رَبَّ الْعَرْشِ الْعَظِيمِ، أَنْ يَشْفِيَكَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 7,
+    },
+    {
+      id: "il-2",
+      arabic:
+        "لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-3",
+      arabic:
+        "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-4",
+      arabic:
+        "بِسْمِ اللَّهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنٍ حَاسِدٍ، اللَّهُ يَشْفِيكَ، بِسْمِ اللَّهِ أَرْقِيكَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-5",
+      arabic:
+        "ضَعْ يَدَكَ عَلَى الَّذِي تَأَلَّمَ مِنْ جَسَدِكَ، وَقُلْ: بِسْمِ اللَّهِ، ثَلَاثًا، وَقُلْ سَبْعَ مَرَّاتٍ: أَعُوذُ بِعِزَّةِ اللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-6",
+      arabic:
+        "اللَّهُمَّ اشْفِ عَبْدَكَ، يَنْكَأُ لَكَ عَدُوًّا، أَوْ يَمْشِي لَكَ إِلَى صَلَاةٍ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-7",
+      arabic:
+        "أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ، بِيَدِكَ الشِّفَاءُ، لَا كَاشِفَ لَهُ إِلَّا أَنْتَ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "il-8",
+      arabic:
+        "اللَّهُمَّ اشْفِنِي شِفَاءً لَا يُغَادِرُ سَقَمًا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const foodAthkar: Athkar = {
+  id: "food",
+  title: {
+    ar: "أذكار الطعام",
+    en: "Athkar of Eating",
+    fr: "Invocations liées au repas",
+  },
+  category: "food",
+  reference: "Islambook – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "fd-1",
+      arabic: "بِسْمِ اللَّهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fd-2",
+      arabic:
+        "بِسْمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "fd-3",
+      arabic:
+        "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ، مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fd-4",
+      arabic:
+        "الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ، غَيْرَ مَكْفِيٍّ وَلَا مُوَدَّعٍ، وَلَا مُسْتَغْنًى عَنْهُ رَبَّنَا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "fd-5",
+      arabic:
+        "اللَّهُمَّ بَارِكْ لَهُمْ فِيمَا رَزَقْتَهُمْ، وَاغْفِرْ لَهُمْ، وَارْحَمْهُمْ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "fd-6",
+      arabic:
+        "أَفْطَرَ عِنْدَكُمُ الصَّائِمُونَ، وَأَكَلَ طَعَامَكُمُ الْأَبْرَارُ، وَصَلَّتْ عَلَيْكُمُ الْمَلَائِكَةُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const homeAthkar: Athkar = {
+  id: "home",
+  title: {
+    ar: "أذكار دخول وخروج البيت",
+    en: "Athkar of Entering and Leaving Home",
+    fr: "Invocations en entrant et en sortant de la maison",
+  },
+  category: "home",
+  reference: "Islambook – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "ho-1",
+      arabic:
+        "بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ho-2",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ، وَخَيْرَ الْمَخْرَجِ، بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ho-3",
+      arabic:
+        "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ho-4",
+      arabic:
+        "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ أَنْ أَضِلَّ أَوْ أُضَلَّ، أَوْ أَزِلَّ أَوْ أُزَلَّ، أَوْ أَظْلِمَ أَوْ أُظْلَمَ، أَوْ أَجْهَلَ أَوْ يُجْهَلَ عَلَيَّ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+
+    {
+      id: "ho-5",
+      arabic:
+        "ذِكْرُ اللَّهِ عِنْدَ دُخُولِ الْبَيْتِ وَعِنْدَ الطَّعَامِ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+export const clothingAthkar: Athkar = {
+  id: "clothing",
+  title: {
+    ar: "أذكار لبس الثوب",
+    en: "Athkar of Wearing Clothes",
+    fr: "Invocations lors de l’habillement",
+  },
+  category: "clothing",
+  reference: "Islambook – Hisn Al-Muslim",
+  phrases: [
+    {
+      id: "cl-1",
+      arabic:
+        "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ، وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "cl-2",
+      arabic:
+        "اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "cl-3",
+      arabic:
+        "إِذَا لَبِسَ ثَوْبًا جَدِيدًا قَالَ: اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "cl-4",
+      arabic:
+        "كَانَ النَّبِيُّ ﷺ إِذَا لَبِسَ ثَوْبًا جَدِيدًا سَمَّاهُ بِاسْمِهِ، عِمَامَةً أَوْ قَمِيصًا أَوْ رِدَاءً، ثُمَّ قَالَ: اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+    {
+      id: "cl-5",
+      arabic:
+        "إِذَا رَأَى عَلَى غَيْرِهِ ثَوْبًا جَدِيدًا قَالَ: تُبْلِي وَيُخْلِفُ اللَّهُ تَعَالَى.",
+      transliteration: "",
+      translation: { en: "", fr: "" },
+      count: 1,
+    },
+  ],
+};
+
+
 export const athkarData: Athkar[] = [
   morningAthkar,
   eveningAthkar,
   sleepAthkar,
-  afterPrayerAthkar
+  afterPrayerAthkar,
+  wakingUpAthkar,
+  wuduAthkar,
+  mosqueAthkar,
+  adhanAthkar,
+  travelAthkar,
+  fearAndSadnessAthkar,
+  illnessAthkar,
+  foodAthkar,
+  homeAthkar,
+  clothingAthkar
 ];
