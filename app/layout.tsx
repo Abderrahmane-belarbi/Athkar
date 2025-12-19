@@ -11,6 +11,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { I18nProvider } from "@/components/i18n-provider";
 import MidnightReset from "@/components/midnight-reset";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
@@ -68,6 +70,7 @@ export default function RootLayout({
             {children}
           </I18nProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
